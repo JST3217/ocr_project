@@ -1,16 +1,21 @@
-# This is a sample Python script.
+import cv2
+import numpy
+import matplotlib
+import pytesseract as tess
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# function to build: for each item in Reports, save the name, then construct img path
+img_path = 'Reports/' + 'Report_210810_082307' + '/MU_Main_Tab_0_Analog.png'
+Img = cv2.imread(img_path)
 
+h, w, _ = Img.shape
+y = 250
+x = 290
+Img = Img[y:y + 150, x:x + 70]  # cropping img to relevant parts
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+Img = cv2.cvtColor(Img, cv2.COLOR_BGR2GRAY)  # convert img to grayscale
 
+text = tess.image_to_string(Img, config='--psm 6 stdout -c tessedit_char_whitelist=-.?mV0123456789')  #pass img to tess with whitelist char
+print(text)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+cv2.imshow('Gray image', Img)
+cv2.waitKey(0)
