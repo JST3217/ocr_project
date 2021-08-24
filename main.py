@@ -7,12 +7,10 @@ import pytesseract as tess
 img_path = 'Reports/' + 'Report_210810_082307' + '/MU_Main_Tab_0_Analog.png'
 Img = cv2.imread(img_path)
 
-h, w, _ = Img.shape
-y = 250
-x = 290
+# h, w, _ = Img.shape
 Img = Img[250:400, 175:545]  # cropping img to relevant parts
 
-# opencv to remove unused text between the reading
+# function to build: opencv to remove unused text between the reading
 
 Img = cv2.cvtColor(Img, cv2.COLOR_BGR2GRAY)  # convert img to grayscale
 
