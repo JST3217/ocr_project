@@ -9,7 +9,7 @@ Img = cv2.imread(img_path)
 
 # h, w, _ = Img.shape
 Img = Img[250:400, 175:545]  # cropping img to relevant parts
-
+img.setTo(Scalar::all(0),mask)
 # function to build: opencv to remove unused text between the reading
 
 Img = cv2.cvtColor(Img, cv2.COLOR_BGR2GRAY)  # convert img to grayscale
