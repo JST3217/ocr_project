@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="changed crop area, threshold value and tess config for slight result improvement">
+    <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="first attempt ocr digits">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_0_Analog.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_0_Analog.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,14 +71,7 @@
       <option name="project" value="LOCAL" />
       <updated>1629491316168</updated>
     </task>
-    <task id="LOCAL-00002" summary="changed crop area, threshold value and tess config for slight result improvement">
-      <created>1629669083590</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1629669083590</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,7 +89,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first attempt ocr digits" />
-    <MESSAGE value="changed crop area, threshold value and tess config for slight result improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed crop area, threshold value and tess config for slight result improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="first attempt ocr digits" />
   </component>
 </project>
