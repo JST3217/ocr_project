@@ -1,65 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="include new img_path, output write to txt file.">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_3-Track_Calib.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_3-Track_Tab_0_Step 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_3-Track_Tab_1_Step 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_3-Track_Tab_2_Step 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_3-Track_Tab_3_Step 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_3-Track_Tab_4_Step 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_About.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Interface_Setup.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_MT_PVL_Tab_0_iC-MU Multiturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_MT_PVL_Tab_1_iC-PVL Multiturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_MU_1SO_gui.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_0_Analog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_1_Interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_2_ABZ _ UVW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_3_Nonius _ Multiturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_4_Nonius Calibration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_5_Error _ Warning _ Status.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_6_Misc..png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_7_I2C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_8_Calib. Setup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Main_Tab_9_Hex Editor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Manual_Calib.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Show_Analog_Graph.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Status_Window2.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_Sync_Clock.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_cfg.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_config.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_082307/MU_report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_3-Track_Calib.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_3-Track_Tab_0_Step 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_3-Track_Tab_1_Step 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_3-Track_Tab_2_Step 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_3-Track_Tab_3_Step 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_3-Track_Tab_4_Step 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_About.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Interface_Setup.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_MT_PVL_Tab_0_iC-MU Multiturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_MT_PVL_Tab_1_iC-PVL Multiturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_MU_1SO_gui.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_0_Analog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_1_Interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_2_ABZ _ UVW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_3_Nonius _ Multiturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_4_Nonius Calibration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_5_Error _ Warning _ Status.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_6_Misc..png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_7_I2C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_8_Calib. Setup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Main_Tab_9_Hex Editor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Manual_Calib.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Show_Analog_Graph.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Status_Window2.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_Sync_Clock.vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_cfg.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_config.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_210810_143330/MU_report.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630953001554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt">
+      <created>1630974205906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630974205906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +102,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first attempt ocr digits" />
     <MESSAGE value="include new img_path, output write to txt file." />
-    <option name="LAST_COMMIT_MESSAGE" value="include new img_path, output write to txt file." />
+    <MESSAGE value="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt" />
   </component>
 </project>

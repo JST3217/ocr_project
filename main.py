@@ -25,9 +25,6 @@ for img in img_path:
 
     Img = Img[250:400, 175:545]  # cropping img to relevant parts
 
-    # cv2.imshow('Img',Img)
-    # cv2.waitKey(0)
-
     Img = cv2.cvtColor(Img, cv2.COLOR_BGR2RGB)  # convert img to RGB
     white_px = (255, 255, 255)
 
@@ -36,6 +33,17 @@ for img in img_path:
     Img[0:150, x1:x1+40] = white_px  # remove useless stuff between readings
     Img[0:150, x2:x2+40] = white_px  # remove useless stuff between readings
     Img = Image.fromarray(Img)  # build img from array
+    Img = cv2.cvtColor(np.array(Img), cv2.COLOR_RGB2BGR)
+
+    scale_percent = 220  # percent of original size
+    width = int(Img.shape[1] * scale_percent / 100)
+    height = int(Img.shape[0] * scale_percent / 100)
+    dim = (width, height)
+
+    # resize image
+    resized = cv2.resize(Img, dim, interpolation=cv2.INTER_AREA)
+
+    cv2.imshow('Img', resized)
 
     # Img = cv2.cvtColor(Img, cv2.COLOR_BGR2GRAY)  # convert img to grayscale
 
@@ -67,4 +75,6 @@ for img in img_path:
     file_contents = f.read()
     print (file_contents)
     f.close()
+
+    cv2.waitKey(0)
 
