@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt">
+    <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="added resize, QoL improvements for accuracy validation">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10a4b54b2712c8213ad418f4782f104f40c51833" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2543523783ca784bc41312d646ea06ac57a8abc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f0f06f8d2a057dfc2d2dacf6493b43ba7c30355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cee0860d8da70d5b0380a2f43ebaef291d5a4914" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -83,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630974205906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added resize, QoL improvements for accuracy validation">
+      <created>1630975830082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630975830082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +115,7 @@
     <MESSAGE value="first attempt ocr digits" />
     <MESSAGE value="include new img_path, output write to txt file." />
     <MESSAGE value="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt" />
+    <MESSAGE value="added resize, QoL improvements for accuracy validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added resize, QoL improvements for accuracy validation" />
   </component>
 </project>
