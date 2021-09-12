@@ -2,7 +2,7 @@ import os
 
 import numpy as np
 from PIL import Image
-from numpy import asarray
+from numpy import save, load
 
 
 def tic():
@@ -41,6 +41,7 @@ def save_char2img(img_array, spec):
     Image.fromarray(img_array).save(filepath)
     return filepath
 
+
 def show_img(filepath):
     img = Image.open(filepath)
     img.show()
@@ -62,60 +63,22 @@ for reports in myRobots:
         img_path.append(folderPath + '/' + myRobots[robot_counter] + '/' + report + '/' + in_filename)
     robot_counter = robot_counter + 1
 
-img = img_path[3]
 
-show_img(img)
-Img_array = np.array(Image.open(img).convert('L'))
-# Img_array = np.array(Image.open(img))
+for img in img_path:
+    Img_array = np.array(Image.open(img).convert('L'))
 
-box_shape = (17, 56)
-#
-# char_0_array = Img_array[309:309 + box_shape[0], 315:322]
-# char_0 = save_char2img(char_0_array, 'char_0')
-# char_1_array = Img_array[357:357 + box_shape[0], 462:467]
-# char_1 = save_char2img(char_1_array, 'char_1')
-# char_2_array = Img_array[261:261 + box_shape[0], 315:322]
-# char_2 = save_char2img(char_2_array, 'char_2')
-# char_3_array = Img_array[261:261 + box_shape[0], 315:322]
-# char_3 = save_char2img(char_3_array, 'char_3')
-# char_4_array = Img_array[357:357 + box_shape[0], 468:474]
-# char_4 = save_char2img(char_4_array, 'char_4')
-# char_5_array = Img_array[357:357 + box_shape[0], 454:461]
-# char_5 = save_char2img(char_5_array, 'char_5')
-# char_6_array = Img_array[357:357 + box_shape[0], 322:328]
-# char_6 = save_char2img(char_6_array, 'char_6')
-# char_7_array = Img_array[357:357 + box_shape[0], 454:460]
-# char_7 = save_char2img(char_7_array, 'char_7')
-# char_8_array = Img_array[357:357 + box_shape[0], 329:336]
-# char_8 = save_char2img(char_8_array, 'char_8')
-char_9_array = Img_array[357:357 + box_shape[0], 327:333]
-char_9 = save_char2img(char_9_array, 'char_9')
-# char_dot_array = Img_array[357:357 + box_shape[0], 319:320]
-# char_dot = save_char2img(char_dot_array, 'char_dot')
-# char_neg_array = Img_array[357:357 + box_shape[0], 307:310]
-# char_neg = save_char2img(char_neg_array, 'char_neg')
-# char_que_array = Img_array[357:357 + box_shape[0], 347:353]
-# char_que = save_char2img(char_que_array, 'char_que')
-# char_m_array = Img_array[261:261 + box_shape[0], 327:337]
-# char_m = save_char2img(char_m_array, 'char_m')
-# char_V_array = Img_array[261:261 + box_shape[0], 337:346]
-# char_V = save_char2img(char_V_array, 'char_V')
+    box_shape = (17, 56)
 
-# for img in img_path:
-#     Img_array = np.array(Image.open(img).convert('L'))
-#
-#     box_shape = (17, 56)
-#
-#     sc_sin_master_array = Img_array[261:261 + box_shape[0], 303:303 + box_shape[1]]
-#     sc_cos_master_array = Img_array[309:309 + box_shape[0], 303:303 + box_shape[1]]
-#     sc_pha_master_array = Img_array[357:357 + box_shape[0], 303:303 + box_shape[1]]
-#     sc_sin_nonius_array = Img_array[261:261 + box_shape[0], 435:435 + box_shape[1]]
-#     sc_cos_nonius_array = Img_array[309:309 + box_shape[0], 435:435 + box_shape[1]]
-#     sc_pha_nonius_array = Img_array[357:357 + box_shape[0], 435:435 + box_shape[1]]
-#
-#     sc_sin_master = save_array2img(sc_sin_master_array, img, 'sc_sin_master')
-#     sc_cos_master = save_array2img(sc_cos_master_array, img, 'sc_cos_master')
-#     sc_pha_master = save_array2img(sc_pha_master_array, img, 'sc_pha_master')
-#     sc_sin_nonius = save_array2img(sc_sin_nonius_array, img, 'sc_sin_nonius')
-#     sc_cos_nonius = save_array2img(sc_cos_nonius_array, img, 'sc_cos_nonius')
-#     sc_pha_nonius = save_array2img(sc_pha_nonius_array, img, 'sc_pha_nonius')
+    sc_sin_master_array = Img_array[261:261 + box_shape[0], 303:303 + box_shape[1]]
+    sc_cos_master_array = Img_array[309:309 + box_shape[0], 303:303 + box_shape[1]]
+    sc_pha_master_array = Img_array[357:357 + box_shape[0], 303:303 + box_shape[1]]
+    sc_sin_nonius_array = Img_array[261:261 + box_shape[0], 435:435 + box_shape[1]]
+    sc_cos_nonius_array = Img_array[309:309 + box_shape[0], 435:435 + box_shape[1]]
+    sc_pha_nonius_array = Img_array[357:357 + box_shape[0], 435:435 + box_shape[1]]
+
+    sc_sin_master = save_array2img(sc_sin_master_array, img, 'sc_sin_master')
+    sc_cos_master = save_array2img(sc_cos_master_array, img, 'sc_cos_master')
+    sc_pha_master = save_array2img(sc_pha_master_array, img, 'sc_pha_master')
+    sc_sin_nonius = save_array2img(sc_sin_nonius_array, img, 'sc_sin_nonius')
+    sc_cos_nonius = save_array2img(sc_cos_nonius_array, img, 'sc_cos_nonius')
+    sc_pha_nonius = save_array2img(sc_pha_nonius_array, img, 'sc_pha_nonius')
