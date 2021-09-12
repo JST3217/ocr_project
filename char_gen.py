@@ -35,8 +35,8 @@ box_shape = (17, 56)
 
 img = img_path[0]
 show_img(img)
-Img_array = np.array(Image.open(img).convert('RGB'))
-# Img_array = np.array(Image.open(img).convert('L'))  # grayscale
+# Img_array = np.array(Image.open(img).convert('RGB'))
+Img_array = np.array(Image.open(img).convert('L'))  # grayscale
 
 char_1_array = Img_array[357:357 + box_shape[0], 462:467]  # img_path[0]
 save('char_lib/char_1_array.npy', char_1_array)
@@ -60,8 +60,8 @@ char_7 = save_char2img(char_7_array, 'char_7')
 
 img = img_path[1]
 show_img(img)
-Img_array = np.array(Image.open(img).convert('RGB'))
-# Img_array = np.array(Image.open(img).convert('L'))  # grayscale
+# Img_array = np.array(Image.open(img).convert('RGB'))
+Img_array = np.array(Image.open(img).convert('L'))  # grayscale
 
 
 char_5_array = Img_array[357:357 + box_shape[0], 454:461]  # img_path[1]
@@ -74,8 +74,8 @@ char_8 = save_char2img(char_8_array, 'char_8')
 
 img = img_path[2]
 show_img(img)
-Img_array = np.array(Image.open(img).convert('RGB'))
-# Img_array = np.array(Image.open(img).convert('L'))  # grayscale
+# Img_array = np.array(Image.open(img).convert('RGB'))
+Img_array = np.array(Image.open(img).convert('L'))  # grayscale
 
 char_0_array = Img_array[309:309 + box_shape[0], 315:322]  # img_path[2]
 save('char_lib/char_0_array.npy', char_0_array)
@@ -107,8 +107,8 @@ char_V = save_char2img(char_V_array, 'char_V')
 
 img = img_path[3]
 show_img(img)
-Img_array = np.array(Image.open(img).convert('RGB'))
-# Img_array = np.array(Image.open(img).convert('L'))  # grayscale
+# Img_array = np.array(Image.open(img).convert('RGB'))
+Img_array = np.array(Image.open(img).convert('L'))  # grayscale
 
 char_9_array = Img_array[357:357 + box_shape[0], 327:334]  # img_path[3]
 save('char_lib/char_9_array.npy', char_9_array)
