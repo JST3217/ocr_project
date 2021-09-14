@@ -2,39 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c705b19e-b468-40a0-8bf6-e7e0e0ed82da" name="Changes" comment="added resize, QoL improvements for accuracy validation">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12aadd18bc326fda9c1501022e9ae97e801a6288" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c739da184978208d16ca7810293b13612dbd1a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63ab82468b51175233cec1202fb2a1b6b028f73b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9daa199ee2646602f756786d58b224bf9686905a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15af4b3d30054104e85f65a444b1db188c5deefb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/1799943395c15ccbb595fae29c229061d424140e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6508eaeb64eac2144ef9d1fb9ce6c44a9078b87c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_gen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_0_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_0_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_1_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_1_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_2_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_2_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_3_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_3_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_4_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_4_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_5_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_5_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_6_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_6_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_7_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_7_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_8_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_8_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_9_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_9_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_V.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_V.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_V_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_V_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_dot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_dot_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_dot_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_m_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_m_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_neg.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_neg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_neg_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_neg_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_que.png" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_que.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_lib/char_que_array.npy" beforeDir="false" afterPath="$PROJECT_DIR$/char_lib/char_que_array.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/directory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_lib/char_V.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_lib/char_V_array.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_lib/char_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_lib/char_m_array.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_lib/char_que.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_lib/char_que_array.npy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +80,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -104,11 +90,12 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jia\PycharmProjects\test_project" />
+      <recent name="C:\Users\Jia\PycharmProjects\test_project\Outputs" />
       <recent name="C:\Users\Jia\PycharmProjects\test_project\" />
       <recent name="C:\Users\Jia\PycharmProjects\test_project\Reports" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.txt2csv">
     <configuration name="char_gen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,8 +138,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="txt2csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt2csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.txt2csv" />
         <item itemvalue="Python.char_gen" />
       </list>
     </recent_temporary>
@@ -216,5 +225,16 @@
     <MESSAGE value="made function to get all image path from dir. ocr results to raw .txt, post-processed results to processed .txt" />
     <MESSAGE value="added resize, QoL improvements for accuracy validation" />
     <option name="LAST_COMMIT_MESSAGE" value="added resize, QoL improvements for accuracy validation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
