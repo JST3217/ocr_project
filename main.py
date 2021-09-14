@@ -15,7 +15,7 @@ def tic():
 def toc():
     import time
     if 'startTime_for_tictoc' in globals():
-        print("Elapsed time is " + str(round(time.time() - startTime_for_tictoc)) + " seconds.")
+        print("Elapsed time is " + str(round(time.time() - startTime_for_tictoc, 2)) + " seconds.")
     else:
         print("Toc: start time not set")
 
@@ -61,10 +61,7 @@ def char2txt(x):
         'char_lib\\char_8_array.npy': '8',
         'char_lib\\char_9_array.npy': '9',
         'char_lib\\char_dot_array.npy': '.',
-        'char_lib\\char_m_array.npy': 'm',
         'char_lib\\char_neg_array.npy': '-',
-        'char_lib\\char_que_array.npy': '?',
-        'char_lib\\char_V_array.npy': 'V',
     }.get(x, 'ERROR')
 
 
@@ -105,7 +102,6 @@ for reports in myRobots:
 for img in img_path:
     tic()
     Img_array = np.array(Image.open(img).convert('L'))
-    # show_img(img)
     box_shape = (17, 56)
 
     sc_sin_master_array = Img_array[261:261 + box_shape[0], 303:303 + box_shape[1]]
@@ -115,12 +111,12 @@ for img in img_path:
     sc_cos_nonius_array = Img_array[309:309 + box_shape[0], 435:435 + box_shape[1]]
     sc_pha_nonius_array = Img_array[357:357 + box_shape[0], 435:435 + box_shape[1]]
 
-    text = ['Signal Conditioning Master Sine Offset: ' + blank_rec(sc_sin_master_array, myChars),
-            'Signal Conditioning Master Cosine Offset: ' + blank_rec(sc_cos_master_array, myChars),
-            'Signal Conditioning Master Phase Adjust: ' + blank_rec(sc_pha_master_array, myChars),
-            'Signal Conditioning Nonius Sine Offset: ' + blank_rec(sc_sin_nonius_array, myChars),
-            'Signal Conditioning Nonius Cosine Offset: ' + blank_rec(sc_cos_nonius_array, myChars),
-            'Signal Conditioning Nonius Phase Adjust: ' + blank_rec(sc_pha_nonius_array, myChars)]
+    text = [blank_rec(sc_sin_master_array, myChars),
+            blank_rec(sc_cos_master_array, myChars),
+            blank_rec(sc_pha_master_array, myChars),
+            blank_rec(sc_sin_nonius_array, myChars),
+            blank_rec(sc_cos_nonius_array, myChars),
+            blank_rec(sc_pha_nonius_array, myChars)]
 
     out_filename = img[8:26] + '_' + img[27:47]
     out_filepath = 'Outputs/' + out_filename + '.txt'
